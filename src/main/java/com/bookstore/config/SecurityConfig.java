@@ -19,7 +19,7 @@ import com.bookstore.utility.SecurityUtility;
 @EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
-	private Environment env;
+	private Environment environment;
 	
 	@Autowired
 	private UserSecurityService userSecurityService;
